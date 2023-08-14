@@ -48,13 +48,11 @@ const Navbar = () => {
           />
         </h4>
       </div>
-
       <div className="cursor-pointer fixed top-2 right-2 z-[999] rounded-lg  bg-white/10 backdrop-blur-md p-2">
         <h4 className="text-white backdrop-blur-md">
           <BiSolidColor onClick={handleColorChange} />
         </h4>
       </div>
-
       {showMenu && (
         <nav
           className={`fixed bottom-10 flex justify-around gap-10 bg-slate-200/60 rounded-full p-5 z-20 backdrop-blur-md`}
