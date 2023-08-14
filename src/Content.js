@@ -194,7 +194,7 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "Akshay22bv@gmail.com",
         icon: GrMail,
         link: "mailto:Akshay22bv@gmaiil.com",
       },
