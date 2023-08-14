@@ -50,7 +50,7 @@ const Projects = () => {
                 <SwiperSlide key={i} className="p-5 h-fit rounded-3xl ">
                   {}
                   <a href={item.link} target="_blank" rel="noreferrer">
-                    <img src={item.image} alt="" className="rounded-xl" />
+                    <img src={item.image} alt="" className="rounded-xl h-36" />
                     <div className="flex flex-col gap-1 mt-2">
                       <h5 className="font-semibold">{item.title}</h5>
                       <button className="font-bold text-gray">READ MORE</button>
